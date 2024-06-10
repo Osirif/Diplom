@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Диплом</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/62823c272f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <!-- Шапка -->
+
+    <div class="normal__header">
+        <header class="header">
+            <nav>
+                <ul class="header__menu">
+                    <div class="header__logo"><a href="index.html"><img src="img/maxresdefault_ma.svg" alt="#"></a>
+                    </div>
+                    <div class="header__menu__links">
+                        <li><a href="index.html" class="menu__link">Главная</a></li>
+                        <li><a href="tournament.html" class="menu__link">Турнир</a></li>
+                        <li><a href="contact.html" class="menu__link">Контакты</a></li>
+                        <li><a href="teams.html" class="menu__link">Команды</a></li>
+                        <li><a href="tickets.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <!-- Бургер меню -->
+
+
+    <div class="burger__menu">
+        <header class="header header__burger">
+            <nav>
+                <div class="header__menu__links">
+                    <div class="header__logo"><a href="index.html"><img src="img/maxresdefault_ma.svg" alt="#"></a>
+                    </div>
+                    <input type="checkbox" id="toggle" hidden>
+                    <label for="toggle" class="toggle-btn">
+                        <i></i>
+                    </label>
+                    <ul class="header__menu-burger">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="tournament.html">Турнир</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                        <li><a href="teams.html">Команды</a></li>
+                        <li><a href="tickets.html">Билеты</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <!-- Контент -->
+
+    <main>
+
+        <div class="teams">
+            <div class="team__header">
+                <div class="header__team">
+                    <div class="team__info-top">
+                        <div class="team__img">
+                            <img src="img/repulse.png" alt="Repulse">
+                        </div>
+                        <div class="team__title">
+                            <h5 class="team__title-title">Repulse</h5>
+                        </div>
+                    </div>
+                    <div class="team__info">
+                        <div class="team__texts">
+                            <div class="team__text">
+                                <p class="text-gray">Основан</p>
+                                <h6>в 2020 году</h6>
+                            </div>
+                            <div class="team__text">
+                                <p class="text-gray">Страна</p>
+                                <div class="text-flag">
+                                    <h6>Россия</h6>
+                                    <div class="flag__img">
+                                        <img src="img/russia.svg" alt="Россия">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team__text">
+                                <p class="text-gray">Призовые</p>
+                                <h6>$ 100.000</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__org">
+                    <h6>Организация</h6>
+                    <div class="org__info">
+                        <div class="org__img"><img src="img/repulse.png" alt="Repulse"></div>
+                        <p>Repulse</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="teams__container">
+                <div class="teams__container__header">
+                    <h2>Текущий состав</h2>
+                    <div class="container__header__btns">
+                        <button class="info__btn team__btn">Текущий состав</button>
+                        <button class="info__btn team__btn">Бывшие игроки</button>
+                    </div>
+                </div>
+
+                <div class="teams__container__memebers">
+
+
+                    <a href="member.html" class="container__member">
+                        <div class="member__person">
+                            <div class="person__img">
+                                <img src="img/losskill.webp" alt="ЛоссКилл">
+                            </div>
+                            <div class="person__info">
+                                <div class="person__flag">
+                                    <div class="flag__img">
+                                        <img src="img/russia.svg" alt="Россия">
+                                    </div>
+                                    <h6>ЛоссКилл</h6>
+                                </div>
+                                <p class="text-gray">Александр Суровнев</p>
+                            </div>
+                        </div>
+                        <div class="member__gamer">
+                            <h6>Игрок</h6>
+                            <p class="text-gray">с 01.06.2018</p>
+                        </div>
+                        <div class="member__statistic">
+                            <h6>Всего матчей: 23</h6>
+                            <div class="statistic">
+                                <div class="bar" style="width: 43%;"></div>
+                            </div>
+                            <div class="statistic__info">
+                                <p class="info-green">10 (43%)</p>
+                                <p class="info-red">13 (57%)</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="member.html" class="container__member">
+                        <div class="member__person">
+                            <div class="person__img">
+                                <img src="img/telch.webp" alt="Тэлч">
+                            </div>
+                            <div class="person__info">
+                                <div class="person__flag">
+                                    <div class="flag__img">
+                                        <img src="img/russia.svg" alt="Россия">
+                                    </div>
+                                    <h6>Тэлч</h6>
+                                </div>
+                                <p class="text-gray">Дмитрий Дорошкевич</p>
+                            </div>
+                        </div>
+                        <div class="member__gamer">
+                            <h6>Игрок</h6>
+                            <p class="text-gray">с 01.06.2018</p>
+                        </div>
+                        <div class="member__statistic">
+                            <h6>Всего матчей: 23</h6>
+                            <div class="statistic">
+                                <div class="bar" style="width: 43%;"></div>
+                            </div>
+                            <div class="statistic__info">
+                                <p class="info-green">10 (43%)</p>
+                                <p class="info-red">13 (57%)</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="member.html" class="container__member">
+                        <div class="member__person">
+                            <div class="person__img">
+                                <img src="img/strai.webp" alt="Страй">
+                            </div>
+                            <div class="person__info">
+                                <div class="person__flag">
+                                    <div class="flag__img">
+                                        <img src="img/russia.svg" alt="Россия">
+                                    </div>
+                                    <h6>Страй</h6>
+                                </div>
+                                <p class="text-gray">Юрий Еремеенко</p>
+                            </div>
+                        </div>
+                        <div class="member__gamer">
+                            <h6>Игрок</h6>
+                            <p class="text-gray">с 01.06.2018</p>
+                        </div>
+                        <div class="member__statistic">
+                            <h6>Всего матчей: 23</h6>
+                            <div class="statistic">
+                                <div class="bar" style="width: 43%;"></div>
+                            </div>
+                            <div class="statistic__info">
+                                <p class="info-green">10 (43%)</p>
+                                <p class="info-red">13 (57%)</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="member.html" class="container__member">
+                        <div class="member__person">
+                            <div class="person__img">
+                                <img src="img/jetfire.webp" alt="Джетфайер">
+                            </div>
+                            <div class="person__info">
+                                <div class="person__flag">
+                                    <div class="flag__img">
+                                        <img src="img/russia.svg" alt="Россия">
+                                    </div>
+                                    <h6>Джетфайр</h6>
+                                </div>
+                                <p class="text-gray">Вадим Зубрицкий</p>
+                            </div>
+                        </div>
+                        <div class="member__gamer">
+                            <h6>Игрок</h6>
+                            <p class="text-gray">с 01.06.2018</p>
+                        </div>
+                        <div class="member__statistic">
+                            <h6>Всего матчей: 23</h6>
+                            <div class="statistic">
+                                <div class="bar" style="width: 43%;"></div>
+                            </div>
+                            <div class="statistic__info">
+                                <p class="info-green">10 (43%)</p>
+                                <p class="info-red">13 (57%)</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="member.html" class="container__member">
+                        <div class="member__person">
+                            <div class="person__img">
+                                <img src="img/dvice.webp" alt="Двайс">
+                            </div>
+                            <div class="person__info">
+                                <div class="person__flag">
+                                    <div class="flag__img">
+                                        <img src="img/russia.svg" alt="Россия">
+                                    </div>
+                                    <h6>Двайс</h6>
+                                </div>
+                                <p class="text-gray">Кирилл Лебедев</p>
+                            </div>
+                        </div>
+                        <div class="member__gamer">
+                            <h6>Игрок</h6>
+                            <p class="text-gray">с 21.05.2023</p>
+                        </div>
+                        <div class="member__statistic">
+                            <h6>Всего матчей: 4</h6>
+                            <div class="statistic">
+                                <div class="bar" style="width: 25%;"></div>
+                            </div>
+                            <div class="statistic__info">
+                                <p class="info-green">1 (25%)</p>
+                                <p class="info-red">3 (75%)</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- История матчей -->
+
+                <div class="teams__history">
+                    <h2>История матчей</h2>
+
+                    <!-- История матчей Desctop версия -->
+
+                    <div class="history__row mobile-dn">
+                        <div class="history__info">
+                            <p>08.04.24 в 17:15</p>
+                            <div class="history__info__text">
+                                <p class="text-gray lose">Repulse</p>
+                                <div class="history__img">
+                                    <img src="img/repulse.png" alt="Repulse">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="history__score">
+                            <h6>1:2</h6>
+                        </div>
+                        <div class="history__info">
+                            <div class="history__info__text">
+                                <div class="history__img">
+                                    <img src="img/ag.webp" alt="CrowCrow.AG">
+                                </div>
+                                <p>CrowCrow.AVG</p>
+                            </div>
+                            <div class="history-column">
+                                <p>Фиджитал</p>
+                                <p>Warface</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="history__row mobile-dn">
+                        <div class="history__info">
+                            <p>04.02.23 в 14:30</p>
+                            <div class="history__info__text">
+                                <p>Repulse</p>
+                                <div class="history__img">
+                                    <img src="img/repulse.png" alt="Repulse">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="history__score">
+                            <h6>2:0</h6>
+                        </div>
+                        <div class="history__info">
+                            <div class="history__info__text">
+                                <div class="history__img">
+                                    <img src="img/yung.webp" alt="Young">
+                                </div>
+                                <p class="text-gray lose">Young</p>
+                            </div>
+                            <div class="history-column">
+                                <p>Фиджитал</p>
+                                <p>Warface</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="history__row mobile-dn">
+                        <div class="history__info">
+                            <p>23.10.22 в 17:15</p>
+                            <div class="history__info__text">
+                                <p class="text-gray lose">Repulse</p>
+                                <div class="history__img">
+                                    <img src="img/repulse.png" alt="Repulse">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="history__score">
+                            <h6>0:1</h6>
+                        </div>
+                        <div class="history__info">
+                            <div class="history__info__text">
+                                <div class="history__img">
+                                    <img src="img/empty.svg" alt="PogChamp">
+                                </div>
+                                <p>PogChamp</p>
+                            </div>
+                            <div class="history-column">
+                                <p>Фиджитал</p>
+                                <p>Warface</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="history__row mobile-dn">
+                        <div class="history__info">
+                            <p>02.11.21 в 13:25</p>
+                            <div class="history__info__text">
+                                <p>Repulse</p>
+                                <div class="history__img">
+                                    <img src="img/repulse.png" alt="Repulse">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="history__score">
+                            <h6>2:1</h6>
+                        </div>
+                        <div class="history__info">
+                            <div class="history__info__text">
+                                <div class="history__img">
+                                    <img src="img/empty.svg" alt="Awinaw">
+                                </div>
+                                <p class="text-gray lose">Awinaw</p>
+                            </div>
+                            <div class="history-column">
+                                <p>Фиджитал</p>
+                                <p>Warface</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="history__row mobile-dn">
+                        <div class="history__info">
+                            <p>24.02.21 в 19:05</p>
+                            <div class="history__info__text">
+                                <p class="text-gray lose">Repulse</p>
+                                <div class="history__img">
+                                    <img src="img/repulse.png" alt="Repulse">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="history__score">
+                            <h6>2:3</h6>
+                        </div>
+                        <div class="history__info">
+                            <div class="history__info__text">
+                                <div class="history__img">
+                                    <img src="img/ponts.webp" alt="Без_Понтов">
+                                </div>
+                                <p>Без_Понтов</p>
+                            </div>
+                            <div class="history-column">
+                                <p>Фиджитал</p>
+                                <p>Warface</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- История матчей мобильная версия -->
+
+                    <div class="history__row history-mobile">
+                        <div class="history__info-mobile">
+                            <div class="history__info-mobile-row">
+                                <div class="history__info-mobile__img">
+                                    <img src="img/warface.svg" alt="warface">
+                                </div>
+                                <p>Warface</p>
+                            </div>
+                            <p class="text-gray">08.04.24 в 17:15</p>
+                        </div>
+                        <div class="history__info-full">
+                            <div class="history__info-top">
+                                <div class="history__info">
+                                    <div class="history__info__text">
+                                        <div class="history__img">
+                                            <img src="img/repulse.png" alt="Repulse">
+                                        </div>
+                                        <p class="text-gray lose">Repulse</p>
+                                    </div>
+                                </div>
+                                <div class="history__info">
+                                    <div class="history__info__text">
+                                        <div class="history__img">
+                                            <img src="img/ag.webp" alt="CrowCrow.AG">
+                                        </div>
+                                        <p>CrowCrow.AVG</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="history__score">
+                                <h6>1</h6>
+                                <h6>2</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="history__row history-mobile">
+                        <div class="history__info-mobile">
+                            <div class="history__info-mobile-row">
+                                <div class="history__info-mobile__img">
+                                    <img src="img/warface.svg" alt="warface">
+                                </div>
+                                <p>Warface</p>
+                            </div>
+                            <p class="text-gray">04.02.23 в 14:30</p>
+                        </div>
+                        <div class="history__info-full">
+                            <div class="history__info-top">
+                                <div class="history__info">
+                                    <div class="history__info__text">
+                                        <div class="history__img">
+                                            <img src="img/repulse.png" alt="Repulse">
+                                        </div>
+                                        <p class="text-gra">Repulse</p>
+                                    </div>
+                                </div>
+                                <div class="history__info">
+                                    <div class="history__img">
+                                        <img src="img/yung.webp" alt="Young">
+                                    </div>
+                                    <p class="text-gray lose">Young</p>
+                                </div>
+                            </div>
+                            <div class="history__score">
+                                <h6>2</h6>
+                                <h6>0</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="history__row history-mobile">
+                        <div class="history__info-mobile">
+                            <div class="history__info-mobile-row">
+                                <div class="history__info-mobile__img">
+                                    <img src="img/warface.svg" alt="warface">
+                                </div>
+                                <p>Warface</p>
+                            </div>
+                            <p class="text-gray">23.10.22 в 17:15</p>
+                        </div>
+                        <div class="history__info-full">
+                            <div class="history__info-top">
+                                <div class="history__info">
+                                    <div class="history__info__text">
+                                        <div class="history__img">
+                                            <img src="img/repulse.png" alt="Repulse">
+                                        </div>
+                                        <p class="text-gray lose">Repulse</p>
+                                    </div>
+                                </div>
+                                <div class="history__info">
+                                    <div class="history__info__text">
+                                        <div class="history__img">
+                                            <img src="img/empty.svg" alt="PogChamp">
+                                        </div>
+                                        <p>PogChamp</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="history__score">
+                                <h6>0</h6>
+                                <h6>1</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="history__row history-mobile">
+                        <div class="history__info-mobile">
+                            <div class="history__info-mobile-row">
+                                <div class="history__info-mobile__img">
+                                    <img src="img/warface.svg" alt="warface">
+                                </div>
+                                <p>Warface</p>
+                            </div>
+                            <p class="text-gray">02.11.21 в 13:25</p>
+                        </div>
+                        <div class="history__info-full">
+                            <div class="history__info-top">
+                                <div class="history__info">
+                                    <div class="history__info__text">
+                                        <div class="history__img">
+                                            <img src="img/repulse.png" alt="Repulse">
+                                        </div>
+                                        <p class="text-gray">Repulse</p>
+                                    </div>
+                                </div>
+                                <div class="history__info__text">
+                                    <div class="history__img">
+                                        <img src="img/empty.svg" alt="Awinaw">
+                                    </div>
+                                    <p class="text-gray lose">Awinaw</p>
+                                </div>
+                            </div>
+                            <div class="history__score">
+                                <h6>2</h6>
+                                <h6>1</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="history__row history-mobile">
+                        <div class="history__info-mobile">
+                            <div class="history__info-mobile-row">
+                                <div class="history__info-mobile__img">
+                                    <img src="img/warface.svg" alt="warface">
+                                </div>
+                                <p>Warface</p>
+                            </div>
+                            <p class="text-gray">24.02.21 в 19:05</p>
+                        </div>
+                        <div class="history__info-full mb-0">
+                            <div class="history__info-top">
+                                <div class="history__info">
+                                    <div class="history__info__text">
+                                        <div class="history__img">
+                                            <img src="img/repulse.png" alt="Repulse">
+                                        </div>
+                                        <p class="text-gray lose">Repulse</p>
+                                    </div>
+                                </div>
+                                <div class="history__info__text">
+                                    <div class="history__img">
+                                        <img src="img/ponts.webp" alt="Без_Понтов">
+                                    </div>
+                                    <p>Без_Понтов</p>
+                                </div>
+                            </div>
+                            <div class="history__score">
+                                <h6>2</h6>
+                                <h6>3</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Награды -->
+
+                <div class="teams__rewards">
+                    <h2>Награды</h2>
+
+                    <!-- Награды Desktop версия -->
+
+                    <div class="rewards__table mobile-dn">
+                        <table>
+                            <tr class="table__header">
+                                <th>Место</th>
+                                <th>Турнир</th>
+                                <th>Сумма призовых</th>
+                                <th>Призовой фонд</th>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td class="td__flex">
+                                    <div class="td__info">
+                                        <div class="td__img">
+                                            <img src="img/warface.svg" alt="Warface">
+                                        </div>
+                                        <div class="td__info__info">
+                                            <p>VK Play Cup 2</p>
+                                            <div class="td__text">
+                                                <p class="text-gray">14.06.2023 - 19.06.2023</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>$ 80 000</td>
+                                <td>$ 200 000</td>
+                            </tr>
+                            <tr>
+                                <td>5-6</td>
+                                <td class="td__flex">
+                                    <div class="td__info">
+                                        <div class="td__img">
+                                            <img src="img/warface.svg" alt="Warface">
+                                        </div>
+                                        <div class="td__info__info">
+                                            <p>VK Play Cup 2</p>
+                                            <div class="td__text">
+                                                <p class="text-gray">14.06.2023 - 19.06.2023</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>$ 33 057</td>
+                                <td>$ 175 000</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <!-- Награды Mobile версия -->
+
+                    <div class="rewards__mobile">
+                        <div class="rewards__mobile-row">
+                            <div class="rewards__mobile-row-top">
+                                <div class="mobile-row-top-left">
+                                    <p class="mobile-row-top-left__number">2</p>
+                                    <div class="td__info__info">
+                                        <p>VK Play Cup 2</p>
+                                        <div class="td__text">
+                                            <p class="text-gray">14.06.2023 - 19.06.2023</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rewards__mobile-row-img">
+                                    <img src="img/warface.svg" alt="warface">
+                                </div>
+                            </div>
+
+                            <div class="rewards__mobile-row-bottom">
+                                <div class="rewards__money">
+                                    <p>Сумма призовых</p>
+                                    <p>$ 80 000</p>
+                                </div>
+                                <div class="rewards__fond">
+                                    <p>Призовой фонд</p>
+                                    <p>$ 200 000</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="rewards__mobile-row">
+                            <div class="rewards__mobile-row-top">
+                                <div class="mobile-row-top-left">
+                                    <p class="mobile-row-top-left__number">5-6</p>
+                                    <div class="td__info__info">
+                                        <p>VK Play Cup 2</p>
+                                        <div class="td__text">
+                                            <p class="text-gray">14.06.2023 - 19.06.2023</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rewards__mobile-row-img">
+                                    <img src="img/warface.svg" alt="warface">
+                                </div>
+                            </div>
+
+                            <div class="rewards__mobile-row-bottom">
+                                <div class="rewards__money">
+                                    <p>Сумма призовых</p>
+                                    <p>$ 33 057</p>
+                                </div>
+                                <div class="rewards__fond">
+                                    <p>Призовой фонд</p>
+                                    <p>$ 175 000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Футер -->
+
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__container__row">
+                <div class="footer-col">
+                    <a href="index.html"><img src="img/maxresdefault_ma.svg" alt="лого" class="footer__logo"></a>
+                    <ul>
+                        <li><input type="text" placeholder="Введите email" class="footer__input"></li>
+                        <li><a href="#">Подписаться</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col mobile-dn">
+                    <h4>Адрес</h4>
+                    <ul>
+                        <li>Адрес: <a href="#">Спартаковская ул., 2, г. Казань</a></li>
+                        <li>Почта:<a href="#">phydhital.kazan@mail.ru</a></li>
+                        <li>Телефон:<a href="#">+7 (999) 999-99-99</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col mobile-dn">
+                    <h4>Страницы</h4>
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Турнир</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Команды</a></li>
+                        <li><a href="#">Билеты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col mobile-dn">
+                    <h4>Соц. сети</h4>
+                    <ul>
+                        <li><a href="#" class="footer__a-df"><i class="fa-brands fa-vk"></i><span
+                                    class="footer__gap">VK</span></a></li>
+                        <li><a href="#" class="footer__a-df"><i class="fa-brands fa-telegram"></i><span
+                                    class="footer__gap">Telegram</span></a></li>
+                        <li><a href="#" class="footer__a-df"><i class="fa-brands fa-whatsapp"></i><span
+                                    class="footer__gap">Whats App</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/header.js"></script>
+</body>
+
+</html>

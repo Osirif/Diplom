@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/62823c272f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Шапка -->
+
+    <div class="normal__header">
+        <header class="header">
+            <nav>
+                <ul class="header__menu">
+                    <div class="header__logo"><a href="index.html"><img src="img/maxresdefault_ma.svg" alt="#"></a>
+                    </div>
+                    <div class="header__menu__links">
+                        <li><a href="index.html" class="menu__link">Главная</a></li>
+                        <li><a href="tournament.html" class="menu__link">Турнир</a></li>
+                        <li><a href="contact.html" class="menu__link">Контакты</a></li>
+                        <li><a href="teams.html" class="menu__link">Команды</a></li>
+                        <li><a href="tickets.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <!-- Бургер меню -->
+
+    <div class="burger__menu">
+        <header class="header header__burger">
+            <nav>
+                <div class="header__menu__links">
+                    <div class="header__logo"><a href="index.html"><img src="img/maxresdefault_ma.svg" alt="#"></a>
+                    </div>
+                    <input type="checkbox" id="toggle" hidden>
+                    <label for="toggle" class="toggle-btn">
+                        <i></i>
+                    </label>
+                    <ul class="header__menu-burger">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="tournament.html">Турнир</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                        <li><a href="teams.html">Команды</a></li>
+                        <li><a href="tickets.html" class="menu__link-active">Билеты</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <!-- Контент -->
+
+    <main class="tickets__content">
+        <div class="hello__screen__tickets">
+            <div class="hello__info">
+                <h1 class="info__text">Билеты на фиджитал турнир по игре Warface</h1>
+                <p class="info__text-small">Купите на этой странице</p>
+                <p class="info__text-small">Прямо сейчас</p>
+                <div class="info__btns">
+                    <a href="#tickets" class="info__btn">Купить билеты</a>
+                </div>
+            </div>
+        </div>
+        <div class="tickets" id="tickets">
+            <div class="tickets__header">
+                <div class="header__btns">
+                    <button>Все</button>
+                    <button>Май</button>
+                    <button>Июнь</button>
+                </div>
+                <div class="header__inputs">
+                    <input type="text" class="input__tickets input-search" placeholder="Поиск по названию">
+                    <input type="date" class="input__tickets input-date" placeholder="Календарь">
+                    <select name="city" class="input__tickets select select-city">
+                        <option value="Выберите город" hidden>Выберите город</option>
+                        <option value="Казань">Казань</option>
+                    </select>
+                    <select name="place" class="input__tickets select select-place">
+                        <option value="Площадка" hidden>Площадка</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <select name="category" class="input__tickets select select-category">
+                        <option value="Категория" hidden>Категория</option>
+                        <option value="Warface">Warface</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Билеты -->
+
+            <div class="tickets__ticket">
+                <div class="ticket__info">
+                    <div class="info-border">
+                        <p>Фиджитал спорт</p>
+                    </div>
+                    <div class="info-dot">
+                        <span class="dot__ticket"></span>
+                        <p>ИТ-парк им. Башира Рамеева</p>
+                    </div>
+                    <h3 class="ticket__name">Warface</h3>
+                </div>
+                <div class="ticket__btn">
+                    <div class="btn__info">
+                        <p class="info__number">12</p>
+                        <div class="btn__info__date">
+                            <p>ВСК, 14:30</p>
+                            <p class="info__month">МАЯ</p>
+                        </div>
+                    </div>
+                    <a href="" class="info__btn ticket__button">Купить билет</a>
+                </div>
+            </div>
+
+            <div class="tickets__ticket">
+                <div class="ticket__info">
+                    <div class="info-border">
+                        <p>Фиджитал спорт</p>
+                    </div>
+                    <div class="info-dot">
+                        <span class="dot__ticket"></span>
+                        <p>ИТ-парк им. Башира Рамеева</p>
+                    </div>
+                    <h3 class="ticket__name">Warface</h3>
+                </div>
+                <div class="ticket__btn">
+                    <div class="btn__info">
+                        <p class="info__number">18</p>
+                        <div class="btn__info__date">
+                            <p>СБТ, 12:30</p>
+                            <p class="info__month">МАЯ</p>
+                        </div>
+                    </div>
+                    <a href="" class="info__btn ticket__button">Купить билет</a>
+                </div>
+            </div>
+
+            <div class="tickets__ticket">
+                <div class="ticket__info">
+                    <div class="info-border">
+                        <p>Фиджитал спорт</p>
+                    </div>
+                    <div class="info-dot">
+                        <span class="dot__ticket"></span>
+                        <p>ИТ-парк им. Башира Рамеева</p>
+                    </div>
+                    <h3 class="ticket__name">Warface</h3>
+                </div>
+                <div class="ticket__btn">
+                    <div class="btn__info">
+                        <p class="info__number">24</p>
+                        <div class="btn__info__date">
+                            <p class="info__date">ПТН, 13:00</p>
+                            <p class="info__month">ИЮН</p>
+                        </div>
+                    </div>
+                    <a href="" class="info__btn ticket__button">Купить билет</a>
+                </div>
+            </div>
+
+            <!-- Инструкция -->
+
+            <div class="instruction">
+                <h2 class="instruction__title">Как купить билеты?</h2>
+                <div class="instruction__cells">
+                    <div class="cell-inst">
+                        <div class="cell-inst__img inst__img-small">
+                            <img src="img/hand.svg" alt="команда">
+                        </div>
+                        <div class="cell__info">
+                            <h5>Как заказать билет?</h5>
+                            <p>Всё просто. Нажмите на подходящий сектор и выберите любые из доступных мест</p>
+                        </div>
+                    </div>
+                    <div class="cell-inst cell-dn">
+                        <div class="cell-inst__img">
+                            <img src="img/wallet.svg" alt="команда">
+                        </div>
+                        <div class="cell__info">
+                            <h5>Как оплатить билет?</h5>
+                            <p>С помощью банковской карты на сайте или наличными курьеру</p>
+                        </div>
+                    </div>
+                    <div class="cell-inst cell-dn">
+                        <div class="cell-inst__img">
+                            <img src="img/ticket.svg" alt="команда">
+                        </div>
+                        <div class="cell__info">
+                            <h5>Как получить билет?</h5>
+                            <p>Скачать на почте, которую вы указали при оплате или получить от курьера</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__container__row">
+                <div class="footer-col">
+                    <a href="index.html"><img src="img/maxresdefault_ma.svg" alt="лого" class="footer__logo"></a>
+                    <ul>
+                        <li><input type="text" placeholder="Введите email" class="footer__input"></li>
+                        <li><a href="#">Подписаться</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col mobile-dn">
+                    <h4>Адрес</h4>
+                    <ul>
+                        <li>Адрес: <a href="#">Спартаковская ул., 2, г. Казань</a></li>
+                        <li>Почта:<a href="#">phydhital.kazan@mail.ru</a></li>
+                        <li>Телефон:<a href="#">+7 (999) 999-99-99</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col mobile-dn">
+                    <h4>Страницы</h4>
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Турнир</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Команды</a></li>
+                        <li><a href="#">Билеты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col mobile-dn">
+                    <h4>Соц. сети</h4>
+                    <ul>
+                        <li><a href="#" class="footer__a-df"><i class="fa-brands fa-vk"></i><span
+                                    class="footer__gap">VK</span></a></li>
+                        <li><a href="#" class="footer__a-df"><i class="fa-brands fa-telegram"></i><span
+                                    class="footer__gap">Telegram</span></a></li>
+                        <li><a href="#" class="footer__a-df"><i class="fa-brands fa-whatsapp"></i><span
+                                    class="footer__gap">Whats App</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/header.js"></script>
+</body>
+
+</html>
