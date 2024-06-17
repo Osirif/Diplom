@@ -11,4 +11,3 @@ else{
     header__burger.style.background = "transparent"
 }
 }
-

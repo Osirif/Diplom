@@ -1,9 +1,7 @@
-
-
 function checkScreenSize() {
   const screenWidth = window.innerWidth;
 
-  if (screenWidth <= 800) {
+  if (screenWidth <= 980) {
     // Функция для разрешения экрана до 980 пикселей
     functionForSmallScreen();
   } else {
